@@ -1,0 +1,19 @@
+{
+    "php.debug.executablePath": 
+    "D:\\OneDrive\\laragon\\bin\\php\\php-7.4.19-Win32-vc15-x64\\php.exe",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MariaDB",
+            "name": "mydb",
+            "database": "mydb",
+            "username": "root"
+        }
+    ]
+}
