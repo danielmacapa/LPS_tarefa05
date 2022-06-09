@@ -20,9 +20,8 @@ if(mysqli_affected_rows($host)){
         echo 'Senha: '.$dados["senha"]."<br><br>";
     }
 }
-
-
-
+echo "<input type='button' value='Sair' 
+onclick=location.href='../index.html'>";
 
 
 ?>
