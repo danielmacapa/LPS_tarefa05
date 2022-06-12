@@ -21,7 +21,7 @@ if (isset($_POST['submit'])){
     //executa a query
     $exec = mysqli_query($host, $query);
     
-    if ($exec){
+    if(mysqli_num_rows($exec) > 0){
         echo "<script> alert('Login realizado');
         location.href='../tela_cadastro.html'</script>";
     }
